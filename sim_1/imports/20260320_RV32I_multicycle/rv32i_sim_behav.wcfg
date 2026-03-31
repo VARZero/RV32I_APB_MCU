@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="rv32i_sim_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="rv32i_sim" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="1375000fs"></ZoomStartTime>
+      <ZoomEndTime time="2363001fs"></ZoomEndTime>
+      <Cursor1Time time="1535000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="167"></NameColumnWidth>
+      <ValueColumnWidth column_width="93"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="68" />
+   <wvobject fp_name="/rv32i_sim/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32i_sim/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider3">
+   </wvobject>
+   <wvobject fp_name="/rv32i_sim/dut/U_INST_MEM/instr_addr" type="array">
+      <obj_property name="ElementShortName">instr_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instr_addr[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32i_sim/dut/U_INST_MEM/instr_data" type="array">
+      <obj_property name="ElementShortName">instr_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instr_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider6">
+   </wvobject>
+   <wvobject fp_name="/rv32i_sim/dut/U_CPU/U_CTRL_UNIT/c_state" type="array">
+      <obj_property name="ElementShortName">c_state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">c_state[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32i_sim/dut/U_CPU/U_CTRL_UNIT/o_state_family" type="array">
+      <obj_property name="ElementShortName">o_state_family[3:0]</obj_property>
+      <obj_property name="ObjectShortName">o_state_family[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32i_sim/dut/U_CPU/U_CTRL_UNIT/i_btaken" type="logic">
+      <obj_property name="ElementShortName">i_btaken</obj_property>
+      <obj_property name="ObjectShortName">i_btaken</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32i_sim/dut/U_CPU/U_CTRL_UNIT/o_ctrl_inalusel" type="logic">
+      <obj_property name="ElementShortName">o_ctrl_inalusel</obj_property>
+      <obj_property name="ObjectShortName">o_ctrl_inalusel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32i_sim/dut/U_CPU/U_CTRL_UNIT/o_ctrl_nextpcsel" type="array">
+      <obj_property name="ElementShortName">o_ctrl_nextpcsel[1:0]</obj_property>
+      <obj_property name="ObjectShortName">o_ctrl_nextpcsel[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32i_sim/dut/U_CPU/U_CTRL_UNIT/o_ctrl_pcupdate" type="logic">
+      <obj_property name="ElementShortName">o_ctrl_pcupdate</obj_property>
+      <obj_property name="ObjectShortName">o_ctrl_pcupdate</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32i_sim/dut/U_CPU/U_CTRL_UNIT/o_ctrl_aluctrl" type="array">
+      <obj_property name="ElementShortName">o_ctrl_aluctrl[3:0]</obj_property>
+      <obj_property name="ObjectShortName">o_ctrl_aluctrl[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32i_sim/dut/U_CPU/U_CTRL_UNIT/o_ctrl_dwe" type="logic">
+      <obj_property name="ElementShortName">o_ctrl_dwe</obj_property>
+      <obj_property name="ObjectShortName">o_ctrl_dwe</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32i_sim/dut/U_CPU/U_CTRL_UNIT/o_ctrl_rfsrcsel" type="array">
+      <obj_property name="ElementShortName">o_ctrl_rfsrcsel[2:0]</obj_property>
+      <obj_property name="ObjectShortName">o_ctrl_rfsrcsel[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32i_sim/dut/U_CPU/U_CTRL_UNIT/o_ctrl_rfwe" type="logic">
+      <obj_property name="ElementShortName">o_ctrl_rfwe</obj_property>
+      <obj_property name="ObjectShortName">o_ctrl_rfwe</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32i_sim/dut/U_CPU/U_CTRL_UNIT/n_state" type="array">
+      <obj_property name="ElementShortName">n_state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">n_state[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider44">
+   </wvobject>
+   <wvobject fp_name="/rv32i_sim/dut/U_CPU/U_DP/U_PC_LOGIC/i_ctrl_pcupdate" type="logic">
+      <obj_property name="ElementShortName">i_ctrl_pcupdate</obj_property>
+      <obj_property name="ObjectShortName">i_ctrl_pcupdate</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32i_sim/dut/U_CPU/U_DP/U_PC_LOGIC/i_ctrl_nextpcsel" type="array">
+      <obj_property name="ElementShortName">i_ctrl_nextpcsel[1:0]</obj_property>
+      <obj_property name="ObjectShortName">i_ctrl_nextpcsel[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32i_sim/dut/U_CPU/U_DP/U_PC_LOGIC/imm" type="array">
+      <obj_property name="ElementShortName">imm[31:0]</obj_property>
+      <obj_property name="ObjectShortName">imm[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32i_sim/dut/U_CPU/U_DP/U_PC_LOGIC/alu_result" type="array">
+      <obj_property name="ElementShortName">alu_result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_result[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32i_sim/dut/U_CPU/U_DP/U_PC_LOGIC/instr_addr" type="array">
+      <obj_property name="ElementShortName">instr_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instr_addr[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32i_sim/dut/U_CPU/U_DP/U_PC_LOGIC/pc_add_imm" type="array">
+      <obj_property name="ElementShortName">pc_add_imm[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_add_imm[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32i_sim/dut/U_CPU/U_DP/U_PC_LOGIC/pc_add4" type="array">
+      <obj_property name="ElementShortName">pc_add4[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_add4[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32i_sim/dut/U_CPU/U_DP/U_PC_LOGIC/pc_instr_addr" type="array">
+      <obj_property name="ElementShortName">pc_instr_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_instr_addr[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32i_sim/dut/U_CPU/U_DP/U_PC_LOGIC/pc_instr_addr_new" type="array">
+      <obj_property name="ElementShortName">pc_instr_addr_new[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_instr_addr_new[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32i_sim/dut/U_CPU/U_DP/U_PC_LOGIC/w_pc_add_4" type="array">
+      <obj_property name="ElementShortName">w_pc_add_4[31:0]</obj_property>
+      <obj_property name="ObjectShortName">w_pc_add_4[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32i_sim/dut/U_CPU/U_DP/U_PC_LOGIC/w_pc_add_imm" type="array">
+      <obj_property name="ElementShortName">w_pc_add_imm[31:0]</obj_property>
+      <obj_property name="ObjectShortName">w_pc_add_imm[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32i_sim/dut/U_CPU/U_DP/U_PC_LOGIC/new_pc_sel" type="array">
+      <obj_property name="ElementShortName">new_pc_sel[1:0]</obj_property>
+      <obj_property name="ObjectShortName">new_pc_sel[1:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider26">
+   </wvobject>
+   <wvobject fp_name="/rv32i_sim/dut/U_CPU/U_DP/U_ALU/rs1" type="array">
+      <obj_property name="ElementShortName">rs1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rs1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32i_sim/dut/U_CPU/U_DP/U_ALU/rs2" type="array">
+      <obj_property name="ElementShortName">rs2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rs2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32i_sim/dut/U_CPU/U_DP/U_ALU/alu_control" type="array">
+      <obj_property name="ElementShortName">alu_control[3:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_control[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32i_sim/dut/U_CPU/U_DP/U_ALU/alu_result" type="array">
+      <obj_property name="ElementShortName">alu_result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_result[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider55">
+   </wvobject>
+   <wvobject fp_name="/rv32i_sim/dut/U_CPU/U_DP/U_ALU/rs1" type="array">
+      <obj_property name="ElementShortName">rs1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rs1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32i_sim/dut/U_CPU/U_DP/U_ALU/rs2" type="array">
+      <obj_property name="ElementShortName">rs2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rs2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32i_sim/dut/U_CPU/U_DP/U_ALU/alu_control" type="array">
+      <obj_property name="ElementShortName">alu_control[3:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_control[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32i_sim/dut/U_CPU/U_DP/U_ALU/alu_result" type="array">
+      <obj_property name="ElementShortName">alu_result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_result[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32i_sim/dut/U_CPU/U_DP/U_RF/RA1" type="array">
+      <obj_property name="ElementShortName">RA1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">RA1[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32i_sim/dut/U_CPU/U_DP/U_RF/RA2" type="array">
+      <obj_property name="ElementShortName">RA2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">RA2[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32i_sim/dut/U_CPU/U_DP/U_RF/WA" type="array">
+      <obj_property name="ElementShortName">WA[4:0]</obj_property>
+      <obj_property name="ObjectShortName">WA[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32i_sim/dut/U_CPU/U_DP/U_RF/Wdata" type="array">
+      <obj_property name="ElementShortName">Wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Wdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32i_sim/dut/U_CPU/U_DP/U_RF/rf_we" type="logic">
+      <obj_property name="ElementShortName">rf_we</obj_property>
+      <obj_property name="ObjectShortName">rf_we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32i_sim/dut/U_CPU/U_DP/U_RF/RD1" type="array">
+      <obj_property name="ElementShortName">RD1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RD1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32i_sim/dut/U_CPU/U_DP/U_RF/RD2" type="array">
+      <obj_property name="ElementShortName">RD2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RD2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32i_sim/dut/U_CPU/U_DP/U_RF/reg_one" type="array">
+      <obj_property name="ElementShortName">reg_one[1:31][31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_one[1:31][31:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider40">
+   </wvobject>
+   <wvobject fp_name="/rv32i_sim/dut/U_CPU/U_DP/U_IMM_EXT/instr_code" type="array">
+      <obj_property name="ElementShortName">instr_code[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instr_code[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32i_sim/dut/U_CPU/U_DP/U_IMM_EXT/data_out" type="array">
+      <obj_property name="ElementShortName">data_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32i_sim/dut/U_CPU/U_DP/U_PC_LOGIC/U_PC_REG/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32i_sim/dut/U_CPU/U_DP/U_PC_LOGIC/U_PC_REG/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32i_sim/dut/U_CPU/U_DP/U_PC_LOGIC/U_PC_REG/update" type="logic">
+      <obj_property name="ElementShortName">update</obj_property>
+      <obj_property name="ObjectShortName">update</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32i_sim/dut/U_CPU/U_DP/U_PC_LOGIC/U_PC_REG/instr_addr_new" type="array">
+      <obj_property name="ElementShortName">instr_addr_new[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instr_addr_new[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32i_sim/dut/U_CPU/U_DP/U_PC_LOGIC/U_PC_REG/instr_addr" type="array">
+      <obj_property name="ElementShortName">instr_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instr_addr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32i_sim/dut/U_CPU/U_DP/U_PC_LOGIC/U_PC_REG/program_counter" type="array">
+      <obj_property name="ElementShortName">program_counter[31:0]</obj_property>
+      <obj_property name="ObjectShortName">program_counter[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider60">
+   </wvobject>
+   <wvobject fp_name="/rv32i_sim/dut/U_DATA_MEM/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32i_sim/dut/U_DATA_MEM/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32i_sim/dut/U_DATA_MEM/we" type="logic">
+      <obj_property name="ElementShortName">we</obj_property>
+      <obj_property name="ObjectShortName">we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32i_sim/dut/U_DATA_MEM/funct3" type="array">
+      <obj_property name="ElementShortName">funct3[2:0]</obj_property>
+      <obj_property name="ObjectShortName">funct3[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32i_sim/dut/U_DATA_MEM/addr" type="array">
+      <obj_property name="ElementShortName">addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32i_sim/dut/U_DATA_MEM/wdata" type="array">
+      <obj_property name="ElementShortName">wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32i_sim/dut/U_DATA_MEM/rdata" type="array">
+      <obj_property name="ElementShortName">rdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32i_sim/dut/U_DATA_MEM/dmem[0]" type="array">
+      <obj_property name="ElementShortName">[0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[0][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32i_sim/dut/U_DATA_MEM/dmem" type="array">
+      <obj_property name="ElementShortName">dmem[0:255][31:0]</obj_property>
+      <obj_property name="ObjectShortName">dmem[0:255][31:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider57">
+   </wvobject>
+</wave_config>
