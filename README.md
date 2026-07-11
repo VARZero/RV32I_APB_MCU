@@ -7,7 +7,7 @@ MCU를 구성하기 위해서는 *CPU* / *BUS Interface* / *Peripheral Cores*가
 단적인 예시로, STM32 Family들은 엄청 많은 외부장치들을 가지고 있죠.  
 ![STM32 Diagram](stm32.png)
 
-그래서 저는 아래와 같은 구조로 구현하고자 합니다.
+### 그래서 저는 아래와 같은 구조로 구현하고자 합니다.
 ![alt text](mcu.png)
 
 위 다이어그램은 다음과 같은 정보를 담는데요,  
